@@ -21,7 +21,7 @@ Role Variables
 License
 -------
 
-BSD
+Apache v2
 
 Author Information
 ------------------
