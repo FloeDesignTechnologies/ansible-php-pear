@@ -1,7 +1,6 @@
 ---
 - name: Install the system PEAR package
   apt: name=php-pear state=present
-  environment: env
   when: ansible_os_family == "Debian"
   tags: [packages,php,pear]
 
